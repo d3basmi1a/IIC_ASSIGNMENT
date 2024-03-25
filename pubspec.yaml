@@ -1,0 +1,36 @@
+name: iic_select_drive
+description: "A new Flutter project FOR IIC"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+  charts_flutter: ^0.11.0
+  table_calendar: ^3.0.3
+  intl: ^0.17.0
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.11.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/profile.jpg
+    - assets/images/chart.png
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: "AppIIcon"
+  image_path: "assets/images/icon.jpg"
+  min_sdk_android: 21
+  remove_alpha_ios: true
